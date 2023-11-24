@@ -1,8 +1,8 @@
 import type { APIRoute } from "astro";
 import { parseGPSSeurantaInitData } from "orienteering-js/gps-seuranta";
 import {
-  Map as LoggatorMap,
-  MapCalibration,
+  type Map as LoggatorMap,
+  type MapCalibration,
   loggatorEventSchema,
   loggatorMapSchema,
 } from "orienteering-js/models";
